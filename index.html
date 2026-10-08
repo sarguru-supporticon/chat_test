@@ -3,18 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<!-- HelpDude Voice Live Agent -->
+<!-- HelpDude Chat Widget -->
 <script>
-  window.HelpDudeVoiceConfig = {
+  window.HelpDudeConfig = {
     widgetId: "supporticon",
     apiBase: "https://d37uenmb7sqjxlx4w5qgqi5pr40iezqq.lambda-url.eu-west-2.on.aws",
-    primaryColor: "#0ea5e9",
+    primaryColor: "#22c55e",
     position: "right",
+    fontFamily: "Outfit",
+    welcomeTitle: "HelpDude Support",
+    welcomeText: "Hi there! Welcome to support. How can we help you today?",
+    launcherIcon: "chat",
     bottomSpacing: 24,
-    roundedCorners: true
+    roundedCorners: true,
+    suggestedQuestions: ["How can we help?", "Track my order", "Talk to support", "Pricing details"]
   };
 </script>
-<script src="https://d37uenmb7sqjxlx4w5qgqi5pr40iezqq.lambda-url.eu-west-2.on.aws/widget/helpdude-voice.js" async></script>
+<script src="https://d37uenmb7sqjxlx4w5qgqi5pr40iezqq.lambda-url.eu-west-2.on.aws/widget/helpdude-bot.js" async></script>
 
 
   <title>Hello My Company</title>

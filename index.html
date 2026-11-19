@@ -4,20 +4,33 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <!-- HelpDude Chat Widget -->
-<!-- HelpDude Voice Live Agent -->
-<!-- HelpDude Voice Live Agent -->
+<!-- HelpDude Chat Widget -->
 <script>
-  window.HelpDudeVoiceConfig = {
+  window.HelpDudeConfig = {
     widgetId: "supporticon",
-    apiBase: "https://api-helpdude.supporticon.com",
-    primaryColor: "#22c55e",
+    apiBase: "https://d37uenmb7sqjxlx4w5qgqi5pr40iezqq.lambda-url.eu-west-2.on.aws",
+    logoUrl: "https://supporticon.com/assets/2765a5e9-465e-4f44-a546-edc0809cfc34-CIiAcBzf.png",
+    primaryColor: "#0284c7",
+    headerGradientStart: "#ffffff",
+    headerGradientEnd: "#0369a1",
+    headerTextColor: "#0f172a",
+    subtitleText: "Online · We reply in minutes",
+    chatBg: "#ffffff",
+    botBubbleBg: "#ffffff",
+    botBubbleColor: "#0f172a",
+    userBubbleBg: "#0284c7",
+    userBubbleColor: "#ffffff",
     position: "right",
+    fontFamily: "Outfit",
+    welcomeTitle: "HelpDude Support",
+    welcomeText: "Hi there! Welcome to support. How can we help you today?",
+    launcherIcon: "chat",
     bottomSpacing: 24,
-    roundedCorners: true
+    roundedCorners: true,
+    suggestedQuestions: ["How can we help?", "Track my order", "Talk to support", "Pricing details"]
   };
 </script>
-<script src="https://api-helpdude.supporticon.com/widget/helpdude-voice.js" async></script>
-
+<script src="https://d37uenmb7sqjxlx4w5qgqi5pr40iezqq.lambda-url.eu-west-2.on.aws/widget/helpdude-bot.js" async></script>
   <title>Hello My Company</title>
   <style>
     :root {
